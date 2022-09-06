@@ -10,7 +10,6 @@
    fetch("data.json")
        .then(response => response.json())
        .then(json => {
-           console.log(typeof json, ' ', json)
            json.forEach(element => {
                labels.push(element.day)
                data.push(element.amount)
@@ -24,7 +23,6 @@
                datasets: [{
                    backgroundColor: color,
                    borderRadius: 8,
-                   //    borderWidth: 2,
                    borderSkipped: false,
                    data: data,
 
