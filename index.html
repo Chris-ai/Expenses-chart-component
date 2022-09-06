@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Expenses chart component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Expenses chart component</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="main.js"></script>
 </head>
+
 <body>
 
-  My balance
-  $921.48
+  <main>
+    <div class="flex-container my-balance">
+      <div class="balance-status">
+        <p>My balance</p>
+        <p class="bold">$921.48</p>
+      </div>
+      <div class="circle"></div>
+    </div>
 
-  Spending - Last 7 days
+    <div class="flex-container chart-content">
+      <h2>Spending - Last 7 days</h2>
+      <canvas id="myChart"></canvas>
+      <!-- <hr> -->
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+      <div class="line"></div>
+      <div class="month-balance">
+        <div class="total-month">
+          <p>Total this month</p>
+          <p class="extra-bold darkish">$478.33</p>
 
-  Total this month
-  $478.33
+        </div>
 
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="gains">
+          <p class="darkish right-side-align">+2.4%</p>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
 </body>
+
 </html>
