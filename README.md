@@ -58,6 +58,6 @@ I've used chart.js to make this chart component. I learned how to style this usi
 
 ## Author
 
-- Website - [Krzysiek Kondracikowski](https://www.linkedin.com/in/krzysztof-kondracikowski-87a3491b3/)
+- LinkedIn - [Krzysiek Kondracikowski](https://www.linkedin.com/in/krzysztof-kondracikowski-87a3491b3/)
 - Frontend Mentor - [@Chris-ai](https://www.frontendmentor.io/profile/Chris-ai)
 - Twitter - [@kondr7_krzysiek](https://twitter.com/kondr7_krzysiek)
