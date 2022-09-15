@@ -10,7 +10,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Screenshot](#screenshot)
 - [Tech stack](#tech-stack)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 # ✏️ Overview
