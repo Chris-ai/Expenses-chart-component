@@ -2,7 +2,7 @@
 
 This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Project contains one chart component built with `Javascript` and `HTML/CSS`. To plot chart I used js library `chart.js`. Data from chart are stored in `data.json` file.
 
-## Table of contents
+# 📝 Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
