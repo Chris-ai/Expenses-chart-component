@@ -1,23 +1,19 @@
-# Frontend Mentor - Expenses chart component solution
+# Expenses chart component solution
 
-This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Project contains one chart component built with `Javascript` and `HTML/CSS`. To plot chart I used js library `chart.js`. Data from chart are stored in `data.json` file.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Live Demo](#live-demo)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
+- [Tech stack](#tech-stack)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### The challenge
+# ✏️ Overview
 
 Users should be able to:
 
@@ -27,37 +23,22 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
-### Screenshot
+# 🟢 Live demo - [Chart component](https://chris-ai.github.io/expenses-chart-component/)
+
+# 📷 Screenshot
 
 ![](./images/Desktop.png)
-![](./images/Mobile.png)
 
-### Links
+# 📚 Tech stack
 
-- Live Site URL: [Live site URL here](https://chart-component.herokuapp.com/)
+## Built with
 
-## My process
+[![Tech](https://skills.thijs.gg/icons?i=javascript,html,css&theme=light)]()
 
-### Built with
+# 🔗 Author
 
-- HTML5
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- Vanilla JavaScript
+[![portfolio](https://img.shields.io/badge/github-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Chris-ai)
 
-### What I learned
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://twitter.com/kondr7_krzysiek)
 
-I've used chart.js to make this chart component. I learned how to style this using javascript.
-
-### Useful resources
-
-- [Chart.js docs](https://www.chartjs.org/docs/latest/) - This helped me understand some features of chart.
-- Stack overflow ofc.
-
-## Author
-
-- LinkedIn - [Krzysiek Kondracikowski](https://www.linkedin.com/in/krzysztof-kondracikowski-87a3491b3/)
-- Frontend Mentor - [@Chris-ai](https://www.frontendmentor.io/profile/Chris-ai)
-- Twitter - [@kondr7_krzysiek](https://twitter.com/kondr7_krzysiek)
+[![twitter](https://img.shields.io/badge/frontendmentor-fefefe?style=for-the-badge&logo=&logoColor=white)](https://www.frontendmentor.io/profile/Chris-ai)
